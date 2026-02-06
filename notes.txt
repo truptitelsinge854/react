@@ -1,0 +1,16 @@
+What is React?
+- JS library for building SPAs.
+- Developed by Facebook.
+- Component-based architecture.
+
+What is SPA?
+- Single Page Application.
+- No page refresh, dynamic content loading.
+
+Why React instead of Angular?
+- Virtual DOM for better performance. Why? 
+    - React updates only the changed parts of the DOM, while Angular and Vue update the entire DOM, leading to better performance in React.
+- Large community support.
+- JSX for easier UI development.
+- React Native for mobile app development.
+

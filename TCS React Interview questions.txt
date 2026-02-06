@@ -1,0 +1,20 @@
+TCS React Interview questions
+
+1. What is redux.
+2. How to pass data from child component to parent component in react.
+3. Diff between functional and class components.
+4. How to build react app. [npm run build]
+5. What is useContext?
+6. What is useCallback?
+7. React lifecycle methods.
+8. What is npm and why is used?
+9. What is useMemo?
+10. What are the react hooks?
+11. Why we use react and not the angular?
+12. Higher order component.
+13. Unit testing in react.
+14. How to run react app.
+15. What are promises?
+16. Async await?
+17. What is reconciliation?
+
