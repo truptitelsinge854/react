@@ -3,6 +3,18 @@ What is React?
 - Developed by Facebook.
 - Component-based architecture.
 
+Why React?
+- Facebook faced Phantom / Ghost message problem.
+- The sync issue between state and DOM resulted in inconsistent UI, message count not updated properly.
+- React introduced Virtual DOM to solve this problem.
+
+How it solves the problem?
+- React creates a Virtual DOM, a lightweight copy of the actual DOM.
+- When state changes, React updates the Virtual DOM first.
+- React then compares the Virtual DOM with the previous version (diffing algorithm) to identify what
+- has changed.
+- Finally, React updates only the changed parts of the actual DOM, improving performance and ensuring a consistent UI.
+
 What is SPA?
 - Single Page Application.
 - No page refresh, dynamic content loading.
@@ -13,4 +25,27 @@ Why React instead of Angular?
 - Large community support.
 - JSX for easier UI development.
 - React Native for mobile app development.
+
+What we need first?
+- Node.js (JS runtime environment) and npm (Node Package Manager) installed on your machine
+- like JVM for java, Node.js is required to run React applications.
+- npm is used to install, manage dependencies, and run scripts for React projects.
+
+Library vs framework?
+- Library - cool dude, flexible, you call it when you need it.
+- Framework - military commander, you follow its rules, it calls you when needed.
+- React is a library, Angular and Vue are frameworks.
+
+Other info
+- React docs - https://react.dev
+
+React folder structure: (What is the structure of a react project?)
+- public/ - static files (index.html, favicon, etc.)
+- src/ - source code (components, styles, etc.)
+- package.json - project metadata and dependencies
+- package-lock.json - exact versions of installed dependencies (auto-generated, do not modify)
+- node_modules/ - installed dependencies (auto-generated, do not modify)
+- .gitignore - files to ignore in version control
+- README.md - project documentation
+- .env - environment variables (optional)
 
